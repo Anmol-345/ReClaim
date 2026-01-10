@@ -12,7 +12,7 @@
 
 ## 📌 Problem Statement
 
-During college fests and large campus events, lost and found items are common but reclaiming them is inefficient, unverified, and often unsafe.
+During college fests and large campus events or even in small communities, lost and found items are common but reclaiming them is inefficient, unverified, and often unsafe.
 
 Reclaim solves this by combining AI-based item verification, smart matching, and a secure reclaim request flow.
 
