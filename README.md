@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧭 Reclaim
 
-## Getting Started
+<p align="center">
+  <img src="./public/logo.png" alt="Reclaim Logo" width="140"/>
+</p>
 
-First, run the development server:
+<p align="center">
+  <b>An AI-assisted Lost & Found Reclaim System for College Campuses</b>
+</p>
+
+---
+
+## 📌 Problem Statement
+
+During college fests and large campus events, lost and found items are common but reclaiming them is inefficient, unverified, and often unsafe.
+
+Reclaim solves this by combining AI-based item verification, smart matching, and a secure reclaim request flow.
+
+---
+
+## 💡 Solution Overview
+
+Reclaim is a web application that enables users to:
+- Report lost or found items
+- Automatically analyze item images using AI
+- Match lost items with found items intelligently
+- Securely request and verify ownership claims
+
+---
+
+## ⚙️ Key Features
+
+### 🖼️ AI Image Analysis
+- Uses Google Gemini to analyze uploaded images
+- Extracts item type and primary color
+- Enables smarter matching beyond text descriptions
+
+### 🔍 Smart Matching Engine
+- Matches items based on item type and color
+- Prevents irrelevant reclaim requests
+
+### 🔐 Secure Reclaim Flow
+- Authenticated reclaim requests
+- Verification before approval
+
+---
+
+## 🏗️ Tech Stack
+
+**Frontend**
+- Next.js
+- React
+- Tailwind CSS
+- Framer Motion
+
+**Backend & Services**
+- Firebase Authentication
+- Firestore
+- Google Gemini API (vision 2.5 flash lite)
+
+---
+
+## 🚀 Getting Started
 
 ```bash
+git clone https://github.com/your-username/reclaim.git
+cd reclaim
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🏆 Hackathon Project
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built for a hackathon to solve real-world campus problems using AI and secure workflows.
