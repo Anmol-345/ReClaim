@@ -13,7 +13,7 @@ import {
 
 import { useRouter } from "next/navigation";
 
-import loader from "@/components/Loader";
+import Loader from "@/components/Loader";
 
 export default function MatchDetailPage() {
   const { itemId: matchedItemId } = useParams();
